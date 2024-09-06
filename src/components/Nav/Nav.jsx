@@ -21,7 +21,7 @@ const Nav = (props) => {
         </div>
         <div className = {classes.friends}>
             <NavLink to = "/friends" className = {({isActive}) => `${isActive ? classes.active : ""}`}>Friends
-            <div className = {classes.friendName}><FriendsNav name = {props.state.friends}/></div></NavLink>
+            <div className = {classes.friendName}><FriendsNav name = {props.state?.friends}/></div></NavLink>
         </div>
     </nav>)
 }

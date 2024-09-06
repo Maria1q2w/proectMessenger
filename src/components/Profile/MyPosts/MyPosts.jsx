@@ -1,23 +1,24 @@
 import classes from "./MyPosts.module.css";
 import Post from "./Posts/Post";
-import { useRef } from "react"
+import { useRef } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { addPostActionCreator, updateNewPostTextActionCreator } from "../../../redux/profile-reducer";
 
 
 const MyPosts = (props) => {
 
-    let postsElements  = props.posts.map(post => <Post message= {post.message} like= {post.likesCount} />)
-
+    let postsElements  = props.posts?.map(post => <Post message= {post.message} like= {post.likesCount} />)
+    const dispatch = useDispatch();
     let newPostElement = useRef();
 
     let addPost = () => {
-        props.dispatch(addPostActionCreator());
+        dispatch(addPostActionCreator());
     };
 
     let onPostChange = () => {
         let text = newPostElement.current.value;
         let action = updateNewPostTextActionCreator(text);
-        props.dispatch(action);
+        dispatch(action);
     }
 
     return (<div className= {classes.postsBlock}>
