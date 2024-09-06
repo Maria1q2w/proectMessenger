@@ -1,0 +1,15 @@
+.el {
+    padding-right: 8px;
+}
+
+.el img {
+    display: block;
+    margin: 0 auto;
+}
+.el:last-child{
+    padding-right: 0px;
+}
+
+
+
+
