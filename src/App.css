@@ -1,34 +1,16 @@
 .app-wrapper {
-    margin: 0 auto;
-    display: grid;
-    width: 1200px;
-    grid-template-areas: "h h" "n c";
-
-    grid-template-rows: 60px 1fr;
-    grid-template-columns: 2fr 10fr;
-    /* grid-gap: 10px; */
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: "h  h"
+  "n c";
+  grid-template-rows: 60px  1fr;
+  grid-template-columns: 2fr 10fr;
+  
 }
 
 .app-wrapper-content {
-    grid-area: c;
-    background-color: cornflowerblue;
+  grid-area: c;
+  background-color: rgb(255, 217, 210);
 }
 
 
-
-
-
-
-
-
-
-
-/*
-
-/messages
-/dialogs
-
-/dialogs/3
-/dialogs/2
-
-*/

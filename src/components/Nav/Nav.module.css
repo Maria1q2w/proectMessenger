@@ -1,0 +1,27 @@
+.nav {
+    grid-area: n;
+    background-color: #f5e6b5;
+    padding: 20px;
+}
+
+.item a{
+    color: white;
+    text-decoration: none;
+}
+
+.item a.active{
+    color: rgb(214, 121, 59);
+}
+.friends a{
+    color: rgb(161, 154, 128);
+    text-decoration: none;
+    font-size: 28px;
+}
+.friends a.active{
+    color: rgb(214, 121, 59);
+}
+
+.friendName {
+    color: rgb(71, 70, 70);
+    font-size: small;
+}
