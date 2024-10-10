@@ -1,8 +1,8 @@
 {
   "name": "react-way-of-samurai",
   "version": "0.1.0",
+  "homepage": "https://Maria1q2w.github.io/proectMessenger",
   "private": true,
-  "homepage": "https://github.com/Maria1q2w/proectMessenger.git",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
