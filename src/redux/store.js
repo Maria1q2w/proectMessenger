@@ -14,7 +14,7 @@ let store = {
         dialogsPage: {
             messages: [
                 {id: 1, message: "Hi"}, 
-                {id: 2, message: "How are you?"},
+                {id: 2, message: "Howggg are you?"},
                 {id: 3, message: "Yo"},
             ],
             dialogs: [
